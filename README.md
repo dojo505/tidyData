@@ -7,6 +7,11 @@ a tidy data set. The raw input data is located in the train and test
 directories with additional files in this directory describing the 
 variables. 
 
+run_analysis.R needs several files to run and will produce output
+in the tidy_output directory. 
+
+(note: due to file size issues I have not uploaded the raw data to GitHub)
+
 1. Source of Raw Data
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
@@ -14,7 +19,7 @@ Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universit‡ degli Studi di Genova.
+DITEN - Universit√† degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
@@ -22,6 +27,8 @@ www.smartlab.ws
 
 2. Description of files added
 - README.md
+- codebook.txt: an updated version of the features_info.txt file,
+     lists the activities and the measurements kept
 - run_analysis.R: script which produces the output tidy data
 - tidy_output/merged_data.txt: binded data sets, only mean and std_dev
 - tidy_output/tidy_data.txt: dataset with average of each variable per subject/activity
